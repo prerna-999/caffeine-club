@@ -1,0 +1,7 @@
+.header{background-clip:url('/assets/img/background/coffee-vedio.mp4')}
+
+ul li a {
+    color: var(--color-green);
+    font-size: 18px;
+    font-weight: 500;
+}

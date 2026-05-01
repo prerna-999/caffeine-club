@@ -1,0 +1,5 @@
+/* @import './header/index.css';
+@import './footer/index.css' */
+
+@import url(./header/header.css);
+@import url(./footer/footer.css);

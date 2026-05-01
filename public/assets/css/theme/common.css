@@ -1,0 +1,74 @@
+.root{
+    
+    --color-brown:#442717;
+    --color-green:#2d402d;
+    --color-skin:#c79978;
+    --color-black:#010101;
+    --color-white:#ffffff;
+    --color-text:#777777;
+}
+
+* a,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none !important;
+}
+
+a {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.loader div:last-child,
+p {
+    margin: 0;
+    margin-bottom: 0px !important;
+}
+
+ul {
+    padding-inline-start: 0px !important;
+}
+ 
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
+ol {
+    padding-left: 0 !important;
+}
+
+li {
+    list-style: none !important;
+}
+
+.container {
+    max-width: 1600px !important;
+    margin: auto;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+.gap-20{gap: 20px;}
+
+
+
+
+
+
