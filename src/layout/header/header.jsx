@@ -18,7 +18,7 @@ const HeaderMenu = () => {
                             </ul>
                         </Col>
                         <Col xl={2} className="d-flex  align-items-center justify-content-end ">
-                        <a href="">Connect with Club</a>
+                        <a href="" className="header-btn">Sip With Us👋</a>
                         </Col>
                     </Row>
                 </Container>

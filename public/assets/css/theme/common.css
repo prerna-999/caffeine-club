@@ -1,11 +1,12 @@
-.root{
-    
+:root{
     --color-brown:#442717;
-    --color-green:#2d402d;
+    --color-lightgreen:#2d402d;
+    --color-green:#001300;
     --color-skin:#c79978;
     --color-black:#010101;
     --color-white:#ffffff;
     --color-text:#777777;
+    --color-bg:#fdf5e6;
 }
 
 * a,

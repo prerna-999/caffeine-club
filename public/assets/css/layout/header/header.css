@@ -1,7 +1,16 @@
-.header{background-clip:url('/assets/img/background/coffee-vedio.mp4')}
+.header{background-color: var(--color-bg);}
 
 ul li a {
     color: var(--color-green);
     font-size: 18px;
     font-weight: 500;
+}
+
+.header-btn{
+    color: var(--color-green);
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid var(--color-green);
+    border-radius: 20px;
+padding: 5px 20px ;
 }
