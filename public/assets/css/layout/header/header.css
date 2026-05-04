@@ -1,16 +1,53 @@
-.header{background-color: var(--color-bg);}
+.header {
+    background-color: var(--color-bg);
+}
 
-ul li a {
-    color: var(--color-green);
+.nav-list li a {
+    color: var(--color-lightgreen);
     font-size: 18px;
     font-weight: 500;
 }
 
-.header-btn{
-    color: var(--color-green);
+.header-btn {
+    color: var(--color-lightgreen);
     font-size: 18px;
     font-weight: 500;
-    border: 2px solid var(--color-green);
+    border: 2px solid var(--color-lightgreen);
     border-radius: 20px;
-padding: 5px 20px ;
+    padding: 5px 20px;
+}
+
+.offcanvas-btn {
+    background-color: var(--color-lightgreen) !important;
+    color: var(color-white) !important;
+    border: none !important;
+}
+
+.offcanvas-list li a {
+    color: var(--color-lightgreen) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px !important;
+}
+
+.offcanvas-list li {
+    margin-bottom: 15px;
+}
+
+.offcanvas-btn-bottom {
+    margin-top: 25px;
+}
+
+.offcanvas-btn-bottom .header-btn {
+    font-size: 20px !important;
+}
+
+.offcanvas-body {
+    background-color: var(--color-bg);
+}
+
+@media (max-width: 1314px) {
+    .nav-list li a {
+        font-size: 16px;
+    }
 }
