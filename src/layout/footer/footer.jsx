@@ -8,6 +8,7 @@ import { FaUsers } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 const FooterMenu = () => {
     return (
@@ -24,11 +25,11 @@ const FooterMenu = () => {
                     <Col xl={3}>
                         <h4>< FiLink /> QUICK LINKS</h4>
                         <ul>
-                            <li><a href="">The Signature Brews</a></li>
-                            <li><a href="">Chilled & Refreshing</a></li>
-                            <li><a href="">Club House Bites</a></li>
-                            <li><a href="">Customizations</a></li>
-                            <li><a href="">The Monkey's Tale</a></li>
+                            <li><a href=""><MdKeyboardArrowRight />The Signature Brews</a></li>
+                            <li><a href=""><MdKeyboardArrowRight />Chilled & Refreshing</a></li>
+                            <li><a href=""><MdKeyboardArrowRight />Club House Bites</a></li>
+                            <li><a href=""><MdKeyboardArrowRight />Customizations</a></li>
+                            <li><a href=""><MdKeyboardArrowRight />The Monkey's Tale</a></li>
                         </ul>
                     </Col>
                     <Col xl={3}>
@@ -49,9 +50,9 @@ const FooterMenu = () => {
                         </div>
                         <h4><MdEmail />JION OUR CLUB </h4>
                         <p>Get updates, offers & brewing stories straight to your in box</p>
-                    <form action="">
-                        <input type="text" placeholder="enter your email" />
-                        <button type="submit">Join the club </button>
+                        <form action="">
+                            <input type="text" placeholder="enter your email" />
+                            <button type="submit">Join the club </button>
                         </form>
                     </Col>
                 </Row>
