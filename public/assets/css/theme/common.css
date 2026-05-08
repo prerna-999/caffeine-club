@@ -726,7 +726,7 @@ body {
 }
 
 .pt-10 {
-    padding-top: 10px;
+    padding-top: 10px !important;
 }
 
 .pt-15 {
@@ -734,7 +734,7 @@ body {
 }
 
 .pt-20 {
-    padding-top: 20px;
+    padding-top: 20px !important;
 }
 
 .pt-25 {
@@ -894,7 +894,7 @@ body {
 }
 
 .pb-20 {
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
 }
 
 .pb-25 {

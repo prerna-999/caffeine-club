@@ -5,3 +5,5 @@
   background-position: center; */
   background-repeat: no-repeat;
 }
+
+.text-18{font-size: 18px; color: var(--color-lightgreen);font-weight: 500;}
