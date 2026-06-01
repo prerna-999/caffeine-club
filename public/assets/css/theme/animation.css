@@ -14,3 +14,74 @@
   60% { transform: rotate(0deg); }
   100% { transform: rotate(0deg); }
 }
+
+
+
+/* .coffee-animation{
+   
+    animation: floatCoffee 4s ease-in-out infinite;
+}
+
+@keyframes floatCoffee {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    25%{
+        transform: translateY(-15px) rotate(-2deg);
+    }
+    50%{
+        transform: translateY(-30px) rotate(0deg);
+    }
+    75%{
+        transform: translateY(-15px) rotate(2deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+.coffee-wrapper{
+    position: relative;
+    display: inline-block;
+}
+
+.steam{
+    position: absolute;
+    width: 12px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+    filter: blur(8px);
+    animation: steam 3s infinite ease-in-out;
+}
+
+.steam1{
+    top: 50px;
+    left: 220px;
+}
+
+.steam2{
+    top: 40px;
+    left: 250px;
+    animation-delay: 1s;
+}
+
+.steam3{
+    top: 50px;
+    left: 280px;
+    animation-delay: 2s;
+}
+
+@keyframes steam{
+    0%{
+        opacity: 0;
+        transform: translateY(0) scale(0.8);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-80px) scale(1.5);
+    }
+} */

@@ -1,0 +1,28 @@
+.padding{padding: 50px;}
+
+.banner {
+    background-image: url('/assets/img/background/homebanner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heading-h1 {
+    font-size: 50px;
+    line-height: 60px;
+    color: var(--color-white);
+}
+
+.text {
+    font-size: 18px;
+    color: var(--color-white);
+}
+
+.small-heading{font-size: 15px;
+color:var(--color-1) ;
+width: fit-content;
+border: 1px solid var(--color-1);
+padding: 8px;
+border-radius: 20px;}
+
+
